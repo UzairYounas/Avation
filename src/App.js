@@ -1,24 +1,91 @@
-import logo from './logo.svg';
-import './App.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "../src/assets/css/style.css";
+import "../src/assets/css/responsive.css";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import ContactUs from "./pages/Contact-page";
+import ProjectUs from "./pages/ProjectUs";
+import OurTeam from "./pages/OurTeam";
+import OurTestimonial from "./pages/OurTestimonial";
+import PricingPlan from "./pages/PricingPlan";
+import OurFaq from "./pages/OurFaq";
+import Blog from "./pages/Blog";
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import OurServices from "./pages/OurServices";
+import ComingSoon from "./pages/ComingSoon";
+import NotFound from "./pages/NotFound";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home />,
+  },
+  {
+    path: "About",
+    element: <About />,
+  },
+  {
+    path: "service",
+    element: <OurServices />,
+  },
+  {
+    path: "Contact",
+    element: <ContactUs />,
+  },
+  {
+    path: "Project",
+    element: <ProjectUs />,
+  },
+  {
+    path: "team",
+    element: <OurTeam />,
+  },{
+    path: "testimonial",
+    element: <OurTestimonial />,
+  },
+  {
+    path: "pricing",
+    element: <PricingPlan />,
+  },
+  {
+    path: "faq",
+    element: <OurFaq/>,
+  },
+  {
+    path: "blog",
+    element: <Blog />,
+  },
+  {
+    path: "coming_soon",
+    element: <ComingSoon />,
+  },
+  {
+    path: "404",
+    element: <NotFound />,
+  },
+]);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Home /> */}
+      {/* <About /> */}
+      {/* <ContactUs /> */}
+      {/* <ProjectUs /> */}
+      {/* <OurTeam /> */}
+      {/* <OurTestimonial /> */}
+      {/* <PricingPlan /> */}
+      {/* <OurFaq /> */}
+      {/* <Blog /> */}
+
+      <RouterProvider router ={router} />
+    </>
+    
   );
 }
 

@@ -1,0 +1,220 @@
+@media screen and (max-width : 991px) {
+    .home_card .card1 {
+        flex-direction: column;
+        padding: 25px 25px 22px 25px;
+    }
+    .card1 img[alt="card_inner_img"] {
+        width: 55px;
+    }
+    .card1 div:first-child {
+        width: 100%;
+    }
+    .card1 div:last-child {
+        width: 100%;
+    }
+}
+@media screen and (max-width : 768px) {
+     /* ======== Pricing Section ======== */
+     .pricing_plan {
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+    .pricing_card figure{
+        display: flex;
+        justify-content: center;
+    }
+    .pricing_card img {
+      width: 70%;
+    }
+}
+@media screen and (max-width : 767px) {
+    /* ======== Main Section ======== */
+    .banner {
+        text-align: center;
+    }
+    .banner .col-lg-6 {
+        align-items: center;
+    }
+    .banner div:nth-child(2) div {
+        margin-top: 44px;
+        background-position-y: 7px;
+    }
+    .banner img[alt="web_title"] {
+        margin: 0 0px 0px 0px;
+    }
+    /* ======== Services Section ======== */
+    /* .service div:first-child div {
+        height: 100%;
+        top: -14px;
+    } */
+    .service {
+        margin: 70px 0;
+    }
+    .service h3{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .service .tit2 {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .service {
+        text-align: center;
+    }
+    .service .col-lg-6 {
+        align-items: center;
+    }
+    /* ======== Card Section ======== */
+    .home_card {
+        flex-direction: column;
+    }
+    .home_card .card1 {
+        width: 100%;
+    }
+    .card1 p {
+        margin: 15px 0 15px 0;
+    }
+    /* ======== Team Section ======== */
+    .team-card {
+        display: flex;
+        flex-direction: column;
+    }
+    .team-card .card {
+        padding: 20px 20px 0 20px;
+    }
+    /* ======== AI section ======== */
+    .artificial .d-flex {
+        align-items: center;
+        text-align: center;
+        padding: 40px 0;
+    }
+    .artificial .tit5 {
+        font-size: 37px;
+      }
+    /* ========= Team Section ============== */
+    .tit6{
+        padding: 0;
+        font-size: 32px;
+    }
+    .team_head{
+        text-align: center;
+    }
+    /* ======== Pricing Section ======== */
+    .pricing {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .border-price {
+        width: fit-content;
+    }
+    .tit7{
+        font-size: 43px;
+    }
+    /* ========= FAQ Section ========= */
+    .faq .gap-4{
+        display: flex;
+        justify-content: center;
+    }
+    .tit8{
+        font-size: 35px;
+        text-align: center;
+    }
+    /* ========= Contact Sectin ======= */
+    .col-md-6 .cont{
+        display: flex;
+        justify-content: center;
+    }
+    /* ========= Insight Section ======= */
+    .insights .gap-4{
+        display: flex;
+        justify-content: center;
+    }
+    .insights .tit4{
+        font-size: 33px;
+        text-align: center;
+        line-height: 40px
+    }
+    .tit4{
+        line-height: 40px;
+        font-size: 33px;
+    }
+    /* ======== Footer Section ====== */
+    .team_head .gap-4{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media screen and (max-width : 425px) {
+    /* ======= Main Section ====== */
+    .tit1{
+        font-size: 34px;
+    }
+    /* ======= Service Section ===== */
+    .tit2{
+        font-size: 28px;
+        padding-top: 15px;
+    }
+    .service .col-md-6 p{
+        font-size: 14px;
+        padding-top: 15px;
+    }
+    /* ======= Counter Section ====== */
+    .count_div{
+        padding: 6px 50px 8px 50px;
+    }
+    .count_div h5{
+        font-size: 15px;
+    }
+    .tit3{
+        font-size: 30px;
+    }
+    /* ======= About Us Section ====== */
+    .about .para4{
+        padding: 0px;
+        font-size: 15px;
+    }
+    .about button{
+        margin-bottom: 20px;
+    }
+    /* ======== AI section ======== */
+    .artificial .tit5 {
+        font-size: 31px;
+      }
+    /* ======== Pricing Section ====== */
+    .team_head hr{
+        width: 37px;
+    }
+    .team_head h3{
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+    .tit6{
+        font-size: 26px;
+    }
+    .pricing{
+        padding: 0 35px;
+    }
+    .pricing_card {
+        padding: 25px 17px;
+    }
+    .pricing_card p{
+        font-size: 15px;
+    }
+    /* ======== FAQ Section ======= */
+    .tit8{
+        font-size: 31px;
+    }
+    /* ======== Testimonial ======= */
+    .testimonial{
+        padding: 25px 25px;
+    }
+}
+@media screen and (max-width : 320px) {
+    .footer_form button{
+        padding: 8px 14px 12px 14px;
+    }
+    /* ======= Testimonial ======= */
+    .testimonial h5{
+        font-size: 15px;
+    }
+}
