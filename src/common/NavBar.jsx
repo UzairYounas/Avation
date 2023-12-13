@@ -71,7 +71,7 @@ let NavBar = () => {
                             <li class="nav-item"><NavLink to = "/service" className="nav-link">Services</NavLink></li>
                             <li class="nav-item"><NavLink to = "/contact" className="nav-link">Contact</NavLink></li>
                             <li className="pages"><a href="#" className="text-decoration-none">More</a></li>
-                            <li className="collapse_btn nav-item">
+                            <li className="collapse_btn nav-item d-flex justify-content-between flex-row-reverse">
                                 <a className="nav-link plus_collapse" data-bs-toggle="collapse" href="#pages" role="button" aria-expanded="false" aria-controls="pages">
                                     <FaPlus color="#ffffff" />
                                 </a>

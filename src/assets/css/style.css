@@ -19,13 +19,13 @@ html {
 
 nav {
   padding: 25px 0 !important;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
   z-index: 1;
 }
 
 nav img {
   width: 100%;
-  filter: brightness(0) invert(1);
+  /* filter: brightness(0) invert(1); */
 }
 
 a {
@@ -151,12 +151,6 @@ aside li a:hover {
 
 .dropdown-item:active {
   background-color: white;
-}
-
-.collapse_btn {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row-reverse;
 }
 
 .collapse_btn i {
@@ -602,6 +596,7 @@ hr {
 .card-txt {
   background-color: #1B1B1B;
   padding: 40px 20px;
+  text-align: center;
 }
 
 .card-txt span a {
@@ -733,6 +728,9 @@ hr {
   clip-path: polygon( 10% 0%, 100% 0%, 100% 30%, 100% 90%, 70% 130%, 0% 100%, 0% 70%, 0% 10%);
   width: 100%;
   object-fit: cover;
+}
+.getquo{
+  padding: 16px 38px;
 }
 
 /* ================ FAQ Section ============== */

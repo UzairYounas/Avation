@@ -38,7 +38,7 @@ function Pricing() {
                         </div>
                         <h2 className='tit7'>$2.99</h2>
                         <div>
-                            <Link to = "/pricing" style={{padding : "16px 38px 16px 38px"}}>Get a Quote</Link>
+                            <Link to = "/pricing" className='getquo'>Get a Quote</Link>
                         </div>
                     </div>
                 </div>
@@ -65,7 +65,7 @@ function Pricing() {
                         </div>
                         <h2 className='tit7'>$4.99</h2>
                         <div>
-                            <Link to = "/pricing" style={{padding : "16px 38px 16px 38px"}}>Get a Quote</Link>
+                            <Link to = "/pricing" className='getquo'>Get a Quote</Link>
                         </div>
                     </div>
                 </div>
