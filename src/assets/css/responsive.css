@@ -38,6 +38,9 @@
     .count_div{
         width: 130px;
     }
+    .counter img[alt="counter_image"]{
+        height: 308px;
+    }
     /* ========= About ========== */
     .tit4{
         font-size: 33px;
@@ -78,7 +81,7 @@
     }
     /* ======== Pricing ========= */
     .pricing_card p{
-        font-size: 12px;
+        font-size: 14px;
     }
     .tit7{
         font-size: 30px;
@@ -190,6 +193,9 @@
     .tit7{
         font-size: 43px;
     }
+    .pricing_card{
+        padding: 30px 50px;
+    }
     /* ========= FAQ Section ========= */
     .faq .gap-4{
         display: flex;
@@ -222,6 +228,14 @@
     .team_head .gap-4{
         display: flex;
         justify-content: center;
+    }
+}
+@media screen and (max-width: 610px) {
+    .slick-prev{
+        left: -4px !important;
+    }
+    .slick-next{
+        right: -3px !important;
     }
 }
 @media screen and (max-width : 425px) {
@@ -287,6 +301,17 @@
     /* ======== Testimonial ======= */
     .testimonial{
         padding: 25px 25px;
+    }
+    .slick-prev{
+        left: -4px !important;
+    }
+    .slick-next{
+        right: -3px !important;
+    }
+}
+@media screen and (max-width: 340px) {
+    .counter img[alt="counter_image"]{
+        height: 540px;
     }
 }
 @media screen and (max-width : 320px) {
